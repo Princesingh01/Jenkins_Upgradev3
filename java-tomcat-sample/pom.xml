@@ -16,16 +16,15 @@
     </dependency>
   </dependencies>
   <build>
-  <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
-        <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
-        </configuration>
-      </plugin>
+      <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version>
+        </plugin>
     </plugins>
+    <finalName>project name</finalName>
+</build>
     <finalName>java-tomcat-maven-example</finalName>
     <plugins>
       <plugin>
